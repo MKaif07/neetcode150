@@ -6,7 +6,7 @@ class Solution:
         newStrs = []
         for st in strs:
             newStrs.append(st)
-            newStrs.append("$#%")
+            newStrs.append("$#%") # delimiter needs to be non ascii (used a combination of ascii)
             
         return "".join(newStrs)
 
